@@ -1,0 +1,16 @@
+/* Sağ üst köşe için buton stil */
+.link-button {
+    position: absolute;
+    top: 200px;
+    right: 20px;
+    padding: 150px 300px;  /* Daha geniş iç boşluk (padding) */
+    background-color: #ff3366;
+    color: white;
+    font-size: 20px;  /* Font boyutunu artırdım */
+    border: none;
+    border-radius: 10px;  /* Kenarları yuvarlatma */
+    cursor: pointer;
+    text-decoration: none; /* Linki buton gibi gösterir */
+    transition: background-color 0.3s ease;
+}
+
